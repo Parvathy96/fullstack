@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+	<form>
+	<fieldset >
+	Name: <input type="text" name="name" placeholder="Name" maxlength="25" required><br>
+	Email: <input type="email" name="email" value="test@example.com" autofocus required><br>
+	Password: <input type="Password" name="password" minlength="6" required><br></fieldset>
+	Category: <select required>
+		<option>student</option>
+		<option>employee</option>
+		<option selected>freelancer</option>
+	</select><br>
+	EventDate: <input type="date" name="date" required><br>
+	Tickets:<input type="radio" name="ticket"  required>1 ticket
+	<input type="radio" name="ticket" checked required>2 tickets
+	<input type="radio" name="ticket" required>3 tickets<br>
+	Payment: <input type="checkbox" name="payment" required>Online Payment<br>
+	Notes: <br><textarea rows="5" cols="30" placeholder="Notes"></textarea><br>
+	<input type="submit" name="submit"><input type="reset" name="reset">
+
+	</form>
+</body>
+</html>
